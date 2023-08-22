@@ -1,0 +1,412 @@
+
+
+/* TOP NAVIGATION */
+
+.topnavigation{
+    background-color: hsla(0, 0%, 87%, 0.341);
+    height: 50px;
+    display: flex;
+}
+.topnavsub{
+    margin-left: 3%;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+.topnavphone{
+    margin-left: 620px;
+}
+.topnavsocialmedia i{
+    border: 1px solid white;
+    background-color: white;
+    color: rgba(153, 90, 12, 0.79);
+    font-size: 20px;
+    margin: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.topnavsocialmedia span i{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.topnavlocation i{
+    color: rgba(153, 90, 12, 0.79);
+}
+.topnavlocation span{
+    font-size: 15px;
+    color: rgb(86, 85, 85);
+}
+.topnavtime i{
+    color: rgba(153, 90, 12, 0.79);
+}
+.topnavtime span{
+    font-size: 15px;
+    color: rgb(86, 85, 85);
+}
+.topnavphone i{
+    color: rgba(153, 90, 12, 0.79);
+}
+.topnavphone span{
+    font-size: 15px;
+    color: rgb(86, 85, 85);
+}
+
+/* SECOND NAVIGATION */
+
+.secondnavigatiomain{
+    display: flex;
+    align-items: center;
+}
+.headwoody{
+    color: rgba(153, 90, 12, 0.79);
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 95px;
+    padding-right: 40%;
+}
+#contentcontact{
+    color: rgba(153, 90, 12, 0.79);
+}
+.navbarcontents span:hover{
+    color: rgba(153, 90, 12, 0.79);
+}
+.navbarcontents{
+    font-weight: 500;
+}
+.getquota p{
+    color: white;
+    font-weight: 500;
+    margin-top: 20px;
+    padding-left: 47px;
+    padding-right: 47px;
+}
+.getquota{
+    background-color: rgba(153, 90, 12, 0.79);
+}
+.getquota span{
+    margin-left: 5px;
+}
+
+/* CONTACT MAIN IMAGES */
+
+.contactmainimg img{
+    width: 100%;
+    height: 350px;
+    filter: brightness(50%);
+    position: relative;
+}
+.contactimgcont{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 35%;
+    left: 40%;
+    width: 60%;
+    height: 5px;
+    color: white;
+}
+.contactimgcont span{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.contactimgcont p{
+    font-size: 20px;
+}
+
+/* FREE QUOTE */
+
+.bgcoloraboutusfree{
+    background-color: #dad0d034;;
+}
+.aboutimagesfree iframe{
+    width: 100%;
+    height: 600px;
+}
+.headaboutfree{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.aboutsescontfree{
+    padding-top: 5%;
+}
+.aboutsescontfree h1{
+    padding-bottom: 3%;
+}
+.aboutsescontfree p{
+    padding-bottom: 3%;
+    width: 90%;
+}
+.nameemail{
+    display: flex;
+    gap: 20px;
+}
+.nameemail input{
+    padding-right: 150px;
+    padding-left: 10px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border: transparent;
+}
+.mobileservice{
+    display: flex;
+    gap: 20px;
+}
+.mobileservice input{
+    padding-right: 150px;
+    padding-left: 10px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border: transparent;
+}
+.mobileservice select{
+    padding-right: 198px;
+    padding-left: 10px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border: transparent;
+}
+.selectarea div{
+    padding-bottom: 15px;
+}
+.notesubmit textarea{
+    padding-right: 60.7%;
+    border: transparent;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.notesubmitbtn a{
+    text-decoration: none;
+    border: 1px solid transparent;
+    background-color: rgba(153, 90, 12, 0.79);
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 43.5%;
+    padding-right: 43.5%;
+}
+.notesubmitbtn a:hover{
+    color: white;
+}
+
+/* FOOTER */
+
+.mainfooter{
+    display: flex;
+    background-color: black;
+    height: auto;
+}
+.mainfooterdisplay{
+    display: flex;
+    border-bottom: 2px solid gray;
+    height: 400px;
+}
+.footaddress{
+    color: white;
+}
+.footlocphoemai{
+    color: white;
+}
+.footlogos{
+    color: white;
+    display: flex;
+}
+.footlogos div{
+    margin: 2px;
+    border: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.footersub1{
+    padding-top: 8%;
+    padding-left: 2%;
+}
+.footlocphoemai span{
+    padding-left: 10px;
+}
+.footaddress p{
+    font-size: 24px;
+    font-weight: bold;
+}
+.footersub2{
+    padding-top: 8%;
+    padding-left: 10%;
+}
+.foothead p{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.footheadcontents{
+    color: white;
+}
+.footheadcontents p:hover{
+    color: rgba(153, 90, 12, 0.79);
+    letter-spacing: 2px;
+    transition: 0.4s;
+}
+.footheadcontents span{
+    padding-left: 10px;
+}
+.footersub3{
+    padding-top: 8%;
+    padding-left: 10%;
+}
+.footlinkcontents p:hover{
+    color: rgba(153, 90, 12, 0.79);
+    letter-spacing: 2px;
+    transition: 0.4s;
+}
+.footerlinks p{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.footlinkcontents{
+    color: white;
+}
+.footlinkcontents span{
+    padding-left: 10px;
+}
+.footersub4{
+    padding-top: 8%;
+    padding-left: 10%;
+}
+.footernewletters p{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.footernewcontents p{
+    color: white;
+    width: 70%;
+}
+.footernewsighnup input{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.signup2btn{
+    display: flex;
+}
+.footsignup p{
+    color: white;
+    font-weight: bold;
+    border: 5px solid white;
+    background-color: rgba(153, 90, 12, 0.79);
+    padding-top: 10px;
+    padding-bottom: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.yoursitename{
+    background-color: black;
+    height: 80px;
+}
+.yoursitename p{
+    color: white;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+.yoursitename span{
+    border-bottom: 1px solid white;
+}
+.yoursitename span:hover{
+    color:  rgba(153, 90, 12, 0.79);
+}
+
+
+
+
+/* MEDIA QUERY */
+
+
+@media (min-width:300px) and (max-width:576.98px){
+
+    /* SECOND NAVIGATION */
+
+    .topnavigation{
+        display: none;
+    }
+    .headwoody{
+        margin-left: 25px;
+        padding-right: 25%;
+    }
+    .getquota p{
+        display: none;
+    }
+
+    /* CONTACT MAIN IMAGES */
+
+.contactimgcont{
+    top: 26%;
+}
+.contactimgcont span{
+    font-size: 40px;
+}
+
+/* FOOTER */
+
+.mainfooterdisplay{
+    display: inline;
+    height: 1050px;
+}
+.footersub1{
+    padding-left: 10%;
+}
+.footersub2{
+    padding-top: 8%;
+    padding-left: 10%;
+}
+.footernewsighnup input{
+    padding-left: 10px;
+    padding-right: 0px;
+    width: 100%;
+}
+.footsignup p{
+    padding-top: 10px;
+    padding-bottom: 13px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.yoursitename p{
+    padding-left: 15px;
+}
+
+/* FREE QUOTE */
+
+.aboutimagesfree img{
+    height: 300px;
+}
+.headaboutfree{
+    font-size: 30px;
+}
+.nameemail{
+    display: inline;
+}
+.nameemail input{
+    padding-right: 100px;
+}
+.mobileservice{
+    display: inline;
+}
+.mobileservice input{
+    padding-right: 100px;
+}
+.mobileservice select{
+    padding-right: 148px;
+}
+.selectarea div{
+    padding-bottom: 20px;
+}
+.notesubmit textarea{
+    padding-right: 54px;
+}
+.notesubmitbtn a{
+    padding-left: 40%;
+    padding-right: 40%;
+}
+}

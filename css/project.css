@@ -1,0 +1,386 @@
+
+
+/* TOP NAVIGATION */
+
+.topnavigation{
+    background-color: hsla(0, 0%, 87%, 0.341);
+    height: 50px;
+    display: flex;
+}
+.topnavsub{
+    margin-left: 3%;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+.topnavphone{
+    margin-left: 620px;
+}
+.topnavsocialmedia i{
+    border: 1px solid white;
+    background-color: white;
+    color: rgba(153, 90, 12, 0.79);
+    font-size: 20px;
+    margin: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.topnavsocialmedia span i{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.topnavlocation i{
+    color: rgba(153, 90, 12, 0.79);
+}
+.topnavlocation span{
+    font-size: 15px;
+    color: rgb(86, 85, 85);
+}
+.topnavtime i{
+    color: rgba(153, 90, 12, 0.79);
+}
+.topnavtime span{
+    font-size: 15px;
+    color: rgb(86, 85, 85);
+}
+.topnavphone i{
+    color: rgba(153, 90, 12, 0.79);
+}
+.topnavphone span{
+    font-size: 15px;
+    color: rgb(86, 85, 85);
+}
+
+/* SECOND NAVIGATION */
+
+.secondnavigatiomain{
+    display: flex;
+    align-items: center;
+}
+.headwoody{
+    color: rgba(153, 90, 12, 0.79);
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 95px;
+    padding-right: 40%;
+}
+#contentproject{
+    color: rgba(153, 90, 12, 0.79);
+}
+.navbarcontents span:hover{
+    color: rgba(153, 90, 12, 0.79);
+}
+.navbarcontents{
+    font-weight: 500;
+}
+.getquota p{
+    color: white;
+    font-weight: 500;
+    margin-top: 20px;
+    padding-left: 47px;
+    padding-right: 47px;
+}
+.getquota{
+    background-color: rgba(153, 90, 12, 0.79);
+}
+.getquota span{
+    margin-left: 5px;
+}
+
+/* PROJECT MAIN IMAGES */
+
+.projectmainimg img{
+    width: 100%;
+    height: 350px;
+    filter: brightness(50%);
+    position: relative;
+}
+.projectimgcont{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 35%;
+    left: 40%;
+    width: 60%;
+    height: 5px;
+    color: white;
+}
+.projectimgcont span{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.projectimgcont p{
+    font-size: 20px;
+}
+
+/* OUR PROJECT */
+
+.serviceheadpro h1{
+    text-align: center;
+    padding-top: 8%;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.servicecard1pro{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px; 
+    padding-top: 5%;
+}
+.woodcardpro img{
+    flex: 1;
+    transition: 0.2s;
+}
+.woodcardpro img:hover{
+    transform: scale(1.05);
+    flex: 1;
+}
+.servicecard1pro p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.servicecard1pro h5{
+    font-size: 18px;
+    color: rgba(153, 90, 12, 0.79);
+}
+.servicecard2pro{
+    display: flex; 
+    justify-content: space-evenly; 
+    gap: 20px; 
+    padding-top: 2%;
+}
+.servicecard2pro p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.servicecard2pro h5{
+    font-size: 18px;
+    color: rgba(153, 90, 12, 0.79);
+}
+.servicebottompro{
+    padding-bottom: 100px;
+}
+.genaralarea{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 17px;
+    font-weight: 500;
+}
+#allp{
+    color: rgba(153, 90, 12, 0.79);
+    border-bottom: 1px solid rgba(153, 90, 12, 0.79);
+
+}
+.genaralarea p:hover{
+    color: rgba(153, 90, 12, 0.79);
+    border-bottom: 1px solid rgba(153, 90, 12, 0.79);
+}
+
+/* FOOTER */
+
+.mainfooter{
+    display: flex;
+    background-color: black;
+    height: auto;
+}
+.mainfooterdisplay{
+    display: flex;
+    border-bottom: 2px solid gray;
+    height: 400px;
+}
+.footaddress{
+    color: white;
+}
+.footlocphoemai{
+    color: white;
+}
+.footlogos{
+    color: white;
+    display: flex;
+}
+.footlogos div{
+    margin: 2px;
+    border: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.footersub1{
+    padding-top: 8%;
+    padding-left: 2%;
+}
+.footlocphoemai span{
+    padding-left: 10px;
+}
+.footaddress p{
+    font-size: 24px;
+    font-weight: bold;
+}
+.footersub2{
+    padding-top: 8%;
+    padding-left: 10%;
+}
+.foothead p{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.footheadcontents{
+    color: white;
+}
+.footheadcontents p:hover{
+    color: rgba(153, 90, 12, 0.79);
+    letter-spacing: 2px;
+    transition: 0.4s;
+}
+.footheadcontents span{
+    padding-left: 10px;
+}
+.footersub3{
+    padding-top: 8%;
+    padding-left: 10%;
+}
+.footlinkcontents p:hover{
+    color: rgba(153, 90, 12, 0.79);
+    letter-spacing: 2px;
+    transition: 0.4s;
+}
+.footerlinks p{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.footlinkcontents{
+    color: white;
+}
+.footlinkcontents span{
+    padding-left: 10px;
+}
+.footersub4{
+    padding-top: 8%;
+    padding-left: 10%;
+}
+.footernewletters p{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.footernewcontents p{
+    color: white;
+    width: 70%;
+}
+.footernewsighnup input{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.signup2btn{
+    display: flex;
+}
+.footsignup p{
+    color: white;
+    font-weight: bold;
+    border: 5px solid white;
+    background-color: rgba(153, 90, 12, 0.79);
+    padding-top: 10px;
+    padding-bottom: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.yoursitename{
+    background-color: black;
+    height: 80px;
+}
+.yoursitename p{
+    color: white;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+.yoursitename span{
+    border-bottom: 1px solid white;
+}
+.yoursitename span:hover{
+    color:  rgba(153, 90, 12, 0.79);
+}
+
+
+
+
+
+/* MEDIA QUERY */
+
+
+@media (min-width:300px) and (max-width:576.98px){
+
+    /* SECOND NAVIGATION */
+
+    .topnavigation{
+        display: none;
+    }
+    .headwoody{
+        margin-left: 25px;
+        padding-right: 25%;
+    }
+    .getquota p{
+        display: none;
+    }
+
+    /* PROJECT MAIN IMAGES */
+
+.projectimgcont{
+    top: 26%;
+}
+.projectimgcont span{
+    font-size: 40px;
+}
+
+/* OUR PROJECT */
+
+.serviceheadpro h1{
+    font-size: 30px;
+}
+.servicecard1pro{
+    display: inline;
+}
+.servicecard2pro{
+    display: inline; 
+}
+.genaralarea{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* FOOTER */
+
+.mainfooterdisplay{
+    display: inline;
+    height: 1050px;
+}
+.footersub1{
+    padding-left: 10%;
+}
+.footersub2{
+    padding-top: 8%;
+    padding-left: 10%;
+}
+.footernewsighnup input{
+    padding-left: 10px;
+    padding-right: 0px;
+    width: 100%;
+}
+.footsignup p{
+    padding-top: 10px;
+    padding-bottom: 13px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.yoursitename p{
+    padding-left: 15px;
+}
+
+}

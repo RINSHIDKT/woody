@@ -1,0 +1,977 @@
+
+/* TOP NAVIGATION */
+
+.topnavigation{
+    background-color: hsla(0, 0%, 87%, 0.341);
+    height: 50px;
+    display: flex;
+}
+.topnavsub{
+    margin-left: 3%;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+.topnavphone{
+    margin-left: 620px;
+}
+.topnavsocialmedia i{
+    border: 1px solid white;
+    background-color: white;
+    color: rgba(153, 90, 12, 0.79);
+    font-size: 20px;
+    margin: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.topnavsocialmedia span i{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.topnavlocation i{
+    color: rgba(153, 90, 12, 0.79);
+}
+.topnavlocation span{
+    font-size: 15px;
+    color: rgb(86, 85, 85);
+}
+.topnavtime i{
+    color: rgba(153, 90, 12, 0.79);
+}
+.topnavtime span{
+    font-size: 15px;
+    color: rgb(86, 85, 85);
+}
+.topnavphone i{
+    color: rgba(153, 90, 12, 0.79);
+}
+.topnavphone span{
+    font-size: 15px;
+    color: rgb(86, 85, 85);
+}
+
+/* SECOND NAVIGATION */
+
+.secondnavigatiomain{
+    display: flex;
+    align-items: center;
+}
+.headwoody{
+    color: rgba(153, 90, 12, 0.79);
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 95px;
+    padding-right: 40%;
+}
+#contenthome{
+    color: rgba(153, 90, 12, 0.79);
+}
+.navbarcontents span:hover{
+    color: rgba(153, 90, 12, 0.79);
+}
+.navbarcontents{
+    font-weight: 500;
+}
+.getquota p{
+    color: white;
+    font-weight: 500;
+    margin-top: 20px;
+    padding-left: 47px;
+    padding-right: 47px;
+}
+.getquota{
+    background-color: rgba(153, 90, 12, 0.79);
+}
+.getquota span{
+    margin-left: 5px;
+}
+
+/* CARO MAIN IMAGES */
+  
+.caroimages img{
+    filter: brightness(50%);
+}
+.caromainimages{
+    position: relative;
+}
+.imagecontent{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 35%;
+    left: 50%;
+    width: 60%;
+    height: 5px;
+    text-align: center;
+}
+.bestcontent span{
+    font-weight: 800;
+}
+.readquotebtn a{
+    text-decoration: none;
+}
+.readquotebtn{
+    display: flex;
+    justify-content: center;
+}
+.readquotebtn span{
+    border: 1px solid rgba(153, 90, 12, 0.79);
+    background-color: rgba(153, 90, 12, 0.79);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin: 10px;
+}
+.readquotebtn span a{
+    color: white;
+    font-weight: bold;
+}
+.readquotebtn p{
+    border: 1px solid white;
+    background-color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin: 10px;
+}
+.readquotebtn p a{
+    color: black;
+    font-weight: bold;
+}
+.carpentercont h5{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+.carpentercont h1{
+    color: white;
+    font-weight: 700;
+    font-size: 55px;
+    width: 80%;
+    margin: auto;
+}
+.carpentercont p{
+    color: white;
+    font-size: 24px;
+}
+
+/* 01 02 03 04 */
+
+.logocont{
+    display: flex;
+    gap: 80%;
+    font-size: 70px;
+}
+.logcontmain{
+    display: flex;
+    padding-bottom: 4%;
+    justify-content: space-evenly;
+}
+.logodiv span{
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 50px;
+    border: 1px solid #f5f5f5;
+    background-color: #f5f5f5;
+    color: rgba(153, 90, 12, 0.79);
+}
+.numberdiv{
+    font-weight: 800;
+    color: #f5f5f5;
+}
+.logcontmain div{
+    padding-top: 4%;
+}
+.logophara p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* ABOUT US IMAGES */
+
+.bgcoloraboutus{
+    background-color: #dad0d034;;
+}
+.aboutimages img{
+    width: 100%;
+    height: 600px;
+}
+.happy-project{
+    display: flex;
+    justify-content: start;
+    gap: 90px;
+}
+.happy-project h2{
+    color: rgba(153, 90, 12, 0.79);
+}
+.happy-project span{
+    font-weight: 400;
+    font-size: 17px;
+}
+.happycustologo{
+    font-size: 45px;
+    color: rgba(153, 90, 12, 0.79);
+    border: 1px solid transparent;
+    background-color: white;
+}
+.happycustologo i{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.happylogo{
+    gap: 20px;
+    display: flex;
+}
+.prochecklogo{
+    font-size: 45px;
+    color: rgba(153, 90, 12, 0.79);
+    border: 1px solid transparent;
+    background-color: white;
+}
+.prochecklogo i{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.projectlogo{
+    gap: 20px;
+    display: flex;
+}
+.explorebtn span{
+    cursor: pointer;
+    border: 1px solid rgba(153, 90, 12, 0.79);
+    background-color: rgba(153, 90, 12, 0.79);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.headabout{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.aboutsescont{
+    padding-top: 7%;
+}
+.aboutsescont div{
+    padding-bottom: 5%;
+}
+.aboutsescont h1{
+    padding-bottom: 5%;
+}
+.aboutsescont p{
+    padding-bottom: 5%;
+    width: 90%;
+}
+
+/* OUR SERVICES */
+
+.servicehead h1{
+    text-align: center;
+    padding-top: 8%;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.servicecard1{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px; 
+    text-align: center;
+    padding-top: 5%;
+}
+.woodcard img{
+    flex: 1;
+    transition: 0.2s;
+}
+.woodcard img:hover{
+    transform: scale(1.05);
+    flex: 1;
+}
+.servicecard1 h5{
+    font-size: 25px;
+    font-weight: bold;
+}
+.servicecard1 a{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgba(153, 90, 12, 0.79);
+}
+.servicecard2{
+    display: flex; 
+    justify-content: space-evenly; 
+    gap: 20px; 
+    text-align: center;
+    padding-top: 2%;
+}
+.servicecard2 h5{
+    font-size: 25px;
+    font-weight: bold;
+}
+.servicecard2 a{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgba(153, 90, 12, 0.79);
+}
+.servicebottom{
+    padding-bottom: 100px;
+}
+
+/* WHY CHOOSE */
+
+.bgcoloraboutus1{
+    background-color: #dad0d034;
+}
+.aboutimages1 img{
+    width: 100%;
+    height: 600px;
+}
+.happy-project1{
+    display: flex;
+    justify-content: start;
+    gap: 90px;
+    padding-bottom: 40px;
+}
+.happy-project1 h2{
+    color: rgba(153, 90, 12, 0.79);
+}
+.happy-project1 span{
+    font-weight: 400;
+    font-size: 17px;
+}
+.happycustologo1{
+    font-size: 45px;
+    color: rgba(153, 90, 12, 0.79);
+    border: 1px solid transparent;
+    background-color: white;
+}
+.happycustologo1 i{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.happylogo1{
+    gap: 20px;
+    display: flex;
+    margin-left: 10%;
+}
+.prochecklogo1{
+    font-size: 45px;
+    color: rgba(153, 90, 12, 0.79);
+    border: 1px solid transparent;
+    background-color: white;
+}
+.prochecklogo1 i{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.projectlogo1{
+    gap: 20px;
+    display: flex;
+}
+.headabout1{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 10%;
+}
+.aboutsescont1{
+    padding-top: 7%;
+}
+.aboutsescont11 div{
+    padding-bottom: 5%;
+}
+.aboutsescont1 h1{
+    padding-bottom: 5%;
+}
+.aboutsescont1 p{
+    padding-bottom: 5%;
+    width: 60%;
+    margin-left: 10%;
+}
+
+/* OUR PROJECT */
+
+.serviceheadpro h1{
+    text-align: center;
+    padding-top: 8%;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.servicecard1pro{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px; 
+    padding-top: 5%;
+}
+.woodcardpro img{
+    flex: 1;
+    transition: 0.2s;
+}
+.woodcardpro img:hover{
+    transform: scale(1.05);
+    flex: 1;
+}
+.servicecard1pro p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.servicecard1pro h5{
+    font-size: 18px;
+    color: rgba(153, 90, 12, 0.79);
+}
+.servicecard2pro{
+    display: flex; 
+    justify-content: space-evenly; 
+    gap: 20px; 
+    padding-top: 2%;
+}
+.servicecard2pro p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.servicecard2pro h5{
+    font-size: 18px;
+    color: rgba(153, 90, 12, 0.79);
+}
+.servicebottompro{
+    padding-bottom: 100px;
+}
+.genaralarea{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 17px;
+    font-weight: 500;
+}
+#allp{
+    color: rgba(153, 90, 12, 0.79);
+    border-bottom: 1px solid rgba(153, 90, 12, 0.79);
+
+}
+.genaralarea p:hover{
+    color: rgba(153, 90, 12, 0.79);
+    border-bottom: 1px solid rgba(153, 90, 12, 0.79);
+}
+
+/* FREE QUOTE */
+
+.bgcoloraboutusfree{
+    background-color: #dad0d034;;
+}
+.aboutimagesfree img{
+    width: 100%;
+    height: 600px;
+}
+.headaboutfree{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.aboutsescontfree{
+    padding-top: 5%;
+}
+.aboutsescontfree h1{
+    padding-bottom: 3%;
+}
+.aboutsescontfree p{
+    padding-bottom: 3%;
+    width: 90%;
+}
+.nameemail{
+    display: flex;
+    gap: 20px;
+}
+.nameemail input{
+    padding-right: 150px;
+    padding-left: 10px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border: transparent;
+}
+.mobileservice{
+    display: flex;
+    gap: 20px;
+}
+.mobileservice input{
+    padding-right: 150px;
+    padding-left: 10px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border: transparent;
+}
+.mobileservice select{
+    padding-right: 198px;
+    padding-left: 10px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border: transparent;
+}
+.selectarea div{
+    padding-bottom: 15px;
+}
+.notesubmit textarea{
+    padding-right: 60.7%;
+    border: transparent;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.notesubmitbtn a{
+    text-decoration: none;
+    border: 1px solid transparent;
+    background-color: rgba(153, 90, 12, 0.79);
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 43.5%;
+    padding-right: 43.5%;
+}
+.notesubmitbtn a:hover{
+    color: white;
+}
+
+/* TEAM MEMBERS */
+
+.memberhead{
+    text-align: center;
+    padding-top: 8%;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.membercard{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    gap: 30px;
+    padding-top: 4%;
+    width: 80%;
+}
+.cardteamhover img{
+    flex: 1;
+    transition: 0.2s;
+}
+.cardteamhover img:hover{
+    transform: scale(1.05);
+    flex: 1;
+}
+.cardteamhover{
+    border: 5px solid rgba(176, 172, 172, 0.204);
+}
+
+/* TESTIMONIAL */
+
+.testimonialhead{
+    text-align: center;
+    padding-top: 8%;
+    font-size: 50px;
+    font-weight: bolder;
+
+}
+
+/* FOOTER */
+
+.mainfooter{
+    display: flex;
+    background-color: black;
+    height: auto;
+}
+.mainfooterdisplay{
+    display: flex;
+    border-bottom: 2px solid gray;
+    height: 400px;
+}
+.footaddress{
+    color: white;
+}
+.footlocphoemai{
+    color: white;
+}
+.footlogos{
+    color: white;
+    display: flex;
+}
+.footlogos div{
+    margin: 2px;
+    border: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.footersub1{
+    padding-top: 8%;
+    padding-left: 2%;
+}
+.footlocphoemai span{
+    padding-left: 10px;
+}
+.footaddress p{
+    font-size: 24px;
+    font-weight: bold;
+}
+.footersub2{
+    padding-top: 8%;
+    padding-left: 10%;
+}
+.foothead p{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.footheadcontents{
+    color: white;
+}
+.footheadcontents p:hover{
+    color: rgba(153, 90, 12, 0.79);
+    letter-spacing: 2px;
+    transition: 0.4s;
+}
+.footheadcontents span{
+    padding-left: 10px;
+}
+.footersub3{
+    padding-top: 8%;
+    padding-left: 10%;
+}
+.footlinkcontents p:hover{
+    color: rgba(153, 90, 12, 0.79);
+    letter-spacing: 2px;
+    transition: 0.4s;
+}
+.footerlinks p{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.footlinkcontents{
+    color: white;
+}
+.footlinkcontents span{
+    padding-left: 10px;
+}
+.footersub4{
+    padding-top: 8%;
+    padding-left: 10%;
+}
+.footernewletters p{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.footernewcontents p{
+    color: white;
+    width: 70%;
+}
+.footernewsighnup input{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.signup2btn{
+    display: flex;
+}
+.footsignup p{
+    color: white;
+    font-weight: bold;
+    border: 5px solid white;
+    background-color: rgba(153, 90, 12, 0.79);
+    padding-top: 10px;
+    padding-bottom: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.yoursitename{
+    background-color: black;
+    height: 80px;
+}
+.yoursitename p{
+    color: white;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+.yoursitename span{
+    border-bottom: 1px solid white;
+}
+.yoursitename span:hover{
+    color:  rgba(153, 90, 12, 0.79);
+}
+
+
+
+
+
+
+
+/* MEDIA QUERY */
+
+
+@media (min-width:300px) and (max-width:576.98px){
+
+    /* SECOND NAVIGATION */
+
+    .topnavigation{
+        display: none;
+    }
+    .headwoody{
+        margin-left: 25px;
+        padding-right: 25%;
+    }
+    .getquota p{
+        display: none;
+    }
+
+    /* CARO MAIN IMAGES */
+
+    
+    .imagecontent{
+        top: 14%;
+        left: 50%;
+        width: 100%;
+    }
+    .readquotebtn span{
+        font-size: 10px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .readquotebtn p{
+        font-size: 10px ;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .carpentercont h5{
+        font-size: 10px;
+        color: white;
+        font-weight: 500;
+    }
+    .carpentercont h1{
+        color: white;
+        font-weight: bold;
+        font-size: 10px;
+        width: 80%;
+        margin: auto;
+    }
+    .carpentercont p{
+        color: white;
+        font-size: 10px;
+        margin: 10px;
+    }
+
+    /* 01 02 03 04 */
+
+    .logocont{
+        display: flex;
+        gap: 50%;
+        justify-content: center;
+    }
+    .logcontmain{
+        display: inline;
+    }
+    .logcontmain div{
+        padding-top: 2%;
+    }
+    .logophara p{
+        font-weight: bold;
+        font-size: 15px;
+        margin-left: 7%;
+    }
+
+               
+/* ABOUT US IMAGES */
+
+.aboutimages img{
+    height: 300px;
+}
+.happy-project{
+    display: inline;
+}
+.happy-project span{
+    font-size: 15px;
+}
+.happycustologo{
+    font-size: 40px;
+}
+.prochecklogo{
+    font-size: 40px;
+}
+.headabout{
+    font-size: 35px;
+}
+.aboutsescont p{
+    width: 100%;
+}
+
+/* OUR SERVICES */
+
+.servicehead h1{
+    font-size: 30px;
+}
+.servicecard1{
+    display: inline;
+}
+.servicecard1 h5{
+    font-size: 18px;
+}
+.servicecard1 a{
+    font-size: 16px;
+}
+.servicecard2{
+    display: inline;  
+}
+.servicecard2 h5{
+    font-size: 18px;
+}
+.servicecard2 a{
+    font-size: 16px;
+}
+.servicebottom{
+    padding-bottom: 50px;
+}
+.woodcard{
+    width: 100%;
+}
+
+/* WHY CHOOSE */
+
+.aboutimages1 img{
+    height: 300px;
+}
+.happy-project1{
+    gap: 20px;
+}
+.happy-project1 span{
+    font-size: 14px;
+}
+.happycustologo1{
+    font-size: 30px;
+}
+.happycustologo1 i{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.happylogo1{
+    gap: 2px;
+    margin-left: 4%;
+}
+.prochecklogo1{
+    font-size: 30px;
+}
+.prochecklogo1 i{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.projectlogo1{
+    gap: 2px;
+}
+.headabout1{
+    font-size: 28px;
+}
+.aboutsescont1 p{
+    width: 80%;
+}
+.happy-project1 h2{
+    font-size: 20px;
+}
+/* OUR PROJECT */
+
+.serviceheadpro h1{
+    font-size: 30px;
+}
+.servicecard1pro{
+    display: inline;
+}
+.servicecard2pro{
+    display: inline; 
+}
+.genaralarea{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* FREE QUOTE */
+
+.aboutimagesfree img{
+    height: 300px;
+}
+.headaboutfree{
+    font-size: 30px;
+}
+.nameemail{
+    display: inline;
+}
+.nameemail input{
+    padding-right: 100px;
+}
+.mobileservice{
+    display: inline;
+}
+.mobileservice input{
+    padding-right: 100px;
+}
+.mobileservice select{
+    padding-right: 148px;
+}
+.selectarea div{
+    padding-bottom: 20px;
+}
+.notesubmit textarea{
+    padding-right: 54px;
+}
+.notesubmitbtn a{
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+/* TEAM MEMBERS */
+
+.memberhead{
+    font-size: 30px;
+}
+.membercard{
+    display: inline;
+}
+
+/* TESTIMONIAL */
+
+.testimonialhead{
+    font-size: 30px;
+}
+
+/* FOOTER */
+
+.mainfooterdisplay{
+    display: inline;
+    height: 1050px;
+}
+.footersub1{
+    padding-left: 10%;
+}
+.footersub2{
+    padding-top: 8%;
+    padding-left: 10%;
+}
+.footernewsighnup input{
+    padding-left: 10px;
+    padding-right: 0px;
+    width: 100%;
+}
+.footsignup p{
+    padding-top: 10px;
+    padding-bottom: 13px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.yoursitename p{
+    padding-left: 15px;
+}
+
+
+
+     
+}
